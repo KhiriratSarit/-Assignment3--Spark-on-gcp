@@ -1,5 +1,8 @@
 import numpy as np 
 
+#import findspark
+#findspark.init()
+
 from pyspark import SparkContext
 from pyspark.mllib.linalg import Vectors
 from pyspark.mllib.linalg.distributed import RowMatrix
@@ -43,7 +46,7 @@ projected = mat.multiply(pc)
 
 collected2 = projected.rows.collect()
 print("\n\nFinish Projected Row Matrix of principal component:")
-for vector in collected2:
-    print(vector)
+# for vector in collected2:
+#    print(vector)
 
 sc.stop()
