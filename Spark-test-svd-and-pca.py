@@ -41,9 +41,9 @@ print("Finish computing V factor\n")
 pc = mat.computePrincipalComponents(4)
 projected = mat.multiply(pc)
 
-collected = projected.rows.collect()
+collected2 = projected.rows.collect()
 print("\n\nFinish Projected Row Matrix of principal component:")
-#for vector in collected:
-#    print(vector)
+for vector in collected2:
+    print(vector)
 
 sc.stop()
