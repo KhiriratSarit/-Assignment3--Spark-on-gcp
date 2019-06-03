@@ -28,12 +28,12 @@ s = svd.s       # The singular values are stored in a local dense vector.
 V = svd.V       # The V factor is a local dense matrix.
 # $example off$
 collected = U.rows.collect()
-print("U factor is:")
-for vector in collected:
-    print(vector)
+print("Finish computing U factor:")
+#for vector in collected:
+#    print(vector)
 
 print("Singular values are: %s" % s)
-print("V factor is:\n%s" % V)
+print("Finish computing V factor\n")
 
 
 # Compute the top 4 principal components.
@@ -42,8 +42,8 @@ pc = mat.computePrincipalComponents(4)
 projected = mat.multiply(pc)
 
 collected = projected.rows.collect()
-print("\n\nProjected Row Matrix of principal component:")
-for vector in collected:
-    print(vector)
+print("\n\nFinish Projected Row Matrix of principal component:")
+#for vector in collected:
+#    print(vector)
 
 sc.stop()
