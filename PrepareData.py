@@ -2,7 +2,7 @@
 import numpy as np 
 
 rows = 1000
-cols = 3000
+cols = 2000
 A = np.random.randn(rows,cols)
 output_matrix = np.dot(np.transpose(A),A) 
 
