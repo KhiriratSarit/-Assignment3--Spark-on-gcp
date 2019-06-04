@@ -12,7 +12,7 @@ from pyspark.mllib.linalg.distributed import RowMatrix
 # D:/spark/spark-2.3.3-bin-hadoop2.7/bin/spark-submit Spark-test-svd-and-pca.py --master local[*]
 
 # load the dataset 
-rows = np.loadtxt('testmatrix2500.txt', dtype=float)
+rows = np.loadtxt('testmatrix2200.txt', dtype=float)
 print('finish loading the data set rows with size')
 print(rows.shape)
 print('\n')

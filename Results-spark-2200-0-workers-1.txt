@@ -1,0 +1,155 @@
+finish loading the data set rows with size
+(2200, 2200)
+
+
+19/06/04 09:38:31 INFO org.spark_project.jetty.util.log: Logging initialized @6276ms
+19/06/04 09:38:31 INFO org.spark_project.jetty.server.Server: jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+19/06/04 09:38:31 INFO org.spark_project.jetty.server.Server: Started @6425ms
+19/06/04 09:38:31 INFO org.spark_project.jetty.server.AbstractConnector: Started ServerConnector@245e1aa8{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+19/06/04 09:38:31 WARN org.apache.spark.scheduler.FairSchedulableBuilder: Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.
+19/06/04 09:38:33 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at cluster-sarit-spark-2-m/10.166.0.10:8032
+19/06/04 09:38:33 INFO org.apache.hadoop.yarn.client.AHSProxy: Connecting to Application History server at cluster-sarit-spark-2-m/10.166.0.10:10200
+19/06/04 09:38:36 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl: Submitted application application_1559638664617_0007
+19/06/04 09:38:47 WARN org.apache.spark.scheduler.TaskSetManager: Stage 0 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:49 WARN org.apache.spark.mllib.linalg.distributed.RowMatrix: The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+19/06/04 09:38:49 INFO com.github.fommil.jni.JniLoader: successfully loaded /tmp/jniloader2064384799626186106netlib-native_system-linux-x86_64.so
+19/06/04 09:38:50 WARN org.apache.spark.scheduler.TaskSetManager: Stage 1 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:51 WARN org.apache.spark.scheduler.TaskSetManager: Stage 2 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:53 WARN org.apache.spark.scheduler.TaskSetManager: Stage 3 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:53 WARN org.apache.spark.scheduler.TaskSetManager: Stage 4 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:54 WARN org.apache.spark.scheduler.TaskSetManager: Stage 5 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:55 WARN org.apache.spark.scheduler.TaskSetManager: Stage 6 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:56 WARN org.apache.spark.scheduler.TaskSetManager: Stage 7 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:56 WARN org.apache.spark.scheduler.TaskSetManager: Stage 8 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:57 WARN org.apache.spark.scheduler.TaskSetManager: Stage 9 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:58 WARN org.apache.spark.scheduler.TaskSetManager: Stage 10 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:38:59 WARN org.apache.spark.scheduler.TaskSetManager: Stage 11 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:00 WARN org.apache.spark.scheduler.TaskSetManager: Stage 12 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:01 WARN org.apache.spark.scheduler.TaskSetManager: Stage 13 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:01 WARN org.apache.spark.scheduler.TaskSetManager: Stage 14 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:02 WARN org.apache.spark.scheduler.TaskSetManager: Stage 15 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:03 WARN org.apache.spark.scheduler.TaskSetManager: Stage 16 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:04 WARN org.apache.spark.scheduler.TaskSetManager: Stage 17 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:04 WARN org.apache.spark.scheduler.TaskSetManager: Stage 18 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:05 WARN org.apache.spark.scheduler.TaskSetManager: Stage 19 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:06 WARN org.apache.spark.scheduler.TaskSetManager: Stage 20 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:07 WARN org.apache.spark.scheduler.TaskSetManager: Stage 21 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:08 WARN org.apache.spark.scheduler.TaskSetManager: Stage 22 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:08 WARN org.apache.spark.scheduler.TaskSetManager: Stage 23 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:09 WARN org.apache.spark.scheduler.TaskSetManager: Stage 24 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:10 WARN org.apache.spark.scheduler.TaskSetManager: Stage 25 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:11 WARN org.apache.spark.scheduler.TaskSetManager: Stage 26 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:11 WARN org.apache.spark.scheduler.TaskSetManager: Stage 27 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:12 WARN org.apache.spark.scheduler.TaskSetManager: Stage 28 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:13 WARN org.apache.spark.scheduler.TaskSetManager: Stage 29 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:14 WARN org.apache.spark.scheduler.TaskSetManager: Stage 30 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:15 WARN org.apache.spark.scheduler.TaskSetManager: Stage 31 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:15 WARN org.apache.spark.scheduler.TaskSetManager: Stage 32 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:16 WARN org.apache.spark.scheduler.TaskSetManager: Stage 33 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:17 WARN org.apache.spark.scheduler.TaskSetManager: Stage 34 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:17 WARN org.apache.spark.scheduler.TaskSetManager: Stage 35 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:18 WARN org.apache.spark.scheduler.TaskSetManager: Stage 36 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:18 WARN org.apache.spark.scheduler.TaskSetManager: Stage 37 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:19 WARN org.apache.spark.scheduler.TaskSetManager: Stage 38 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:20 WARN org.apache.spark.scheduler.TaskSetManager: Stage 39 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:20 WARN org.apache.spark.scheduler.TaskSetManager: Stage 40 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:21 WARN org.apache.spark.scheduler.TaskSetManager: Stage 41 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:22 WARN org.apache.spark.scheduler.TaskSetManager: Stage 42 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:22 WARN org.apache.spark.scheduler.TaskSetManager: Stage 43 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:23 WARN org.apache.spark.scheduler.TaskSetManager: Stage 44 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:24 WARN org.apache.spark.scheduler.TaskSetManager: Stage 45 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:25 WARN org.apache.spark.scheduler.TaskSetManager: Stage 46 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:25 WARN org.apache.spark.scheduler.TaskSetManager: Stage 47 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:26 WARN org.apache.spark.scheduler.TaskSetManager: Stage 48 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:27 WARN org.apache.spark.scheduler.TaskSetManager: Stage 49 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:28 WARN org.apache.spark.scheduler.TaskSetManager: Stage 50 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:28 WARN org.apache.spark.scheduler.TaskSetManager: Stage 51 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:29 WARN org.apache.spark.scheduler.TaskSetManager: Stage 52 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:30 WARN org.apache.spark.scheduler.TaskSetManager: Stage 53 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:30 WARN org.apache.spark.scheduler.TaskSetManager: Stage 54 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:31 WARN org.apache.spark.scheduler.TaskSetManager: Stage 55 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:31 WARN org.apache.spark.scheduler.TaskSetManager: Stage 56 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:32 WARN org.apache.spark.scheduler.TaskSetManager: Stage 57 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:33 WARN org.apache.spark.scheduler.TaskSetManager: Stage 58 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:34 WARN org.apache.spark.scheduler.TaskSetManager: Stage 59 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:34 WARN org.apache.spark.scheduler.TaskSetManager: Stage 60 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:35 WARN org.apache.spark.scheduler.TaskSetManager: Stage 61 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:35 WARN org.apache.spark.scheduler.TaskSetManager: Stage 62 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:36 WARN org.apache.spark.scheduler.TaskSetManager: Stage 63 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:37 WARN org.apache.spark.scheduler.TaskSetManager: Stage 64 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:38 WARN org.apache.spark.scheduler.TaskSetManager: Stage 65 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:38 WARN org.apache.spark.scheduler.TaskSetManager: Stage 66 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:39 WARN org.apache.spark.scheduler.TaskSetManager: Stage 67 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:40 WARN org.apache.spark.scheduler.TaskSetManager: Stage 68 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:40 WARN org.apache.spark.scheduler.TaskSetManager: Stage 69 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:41 WARN org.apache.spark.scheduler.TaskSetManager: Stage 70 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:41 WARN org.apache.spark.scheduler.TaskSetManager: Stage 71 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:42 WARN org.apache.spark.scheduler.TaskSetManager: Stage 72 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:43 WARN org.apache.spark.scheduler.TaskSetManager: Stage 73 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:43 WARN org.apache.spark.scheduler.TaskSetManager: Stage 74 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:44 WARN org.apache.spark.scheduler.TaskSetManager: Stage 75 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:45 WARN org.apache.spark.scheduler.TaskSetManager: Stage 76 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:45 WARN org.apache.spark.scheduler.TaskSetManager: Stage 77 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:46 WARN org.apache.spark.scheduler.TaskSetManager: Stage 78 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:47 WARN org.apache.spark.scheduler.TaskSetManager: Stage 79 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:48 WARN org.apache.spark.scheduler.TaskSetManager: Stage 80 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:48 WARN org.apache.spark.scheduler.TaskSetManager: Stage 81 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:49 WARN org.apache.spark.scheduler.TaskSetManager: Stage 82 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:50 WARN org.apache.spark.scheduler.TaskSetManager: Stage 83 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:50 WARN org.apache.spark.scheduler.TaskSetManager: Stage 84 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:51 WARN org.apache.spark.scheduler.TaskSetManager: Stage 85 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:51 WARN org.apache.spark.scheduler.TaskSetManager: Stage 86 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:52 WARN org.apache.spark.scheduler.TaskSetManager: Stage 87 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:53 WARN org.apache.spark.scheduler.TaskSetManager: Stage 88 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:54 WARN org.apache.spark.scheduler.TaskSetManager: Stage 89 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:54 WARN org.apache.spark.scheduler.TaskSetManager: Stage 90 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:55 WARN org.apache.spark.scheduler.TaskSetManager: Stage 91 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:56 WARN org.apache.spark.scheduler.TaskSetManager: Stage 92 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:56 WARN org.apache.spark.scheduler.TaskSetManager: Stage 93 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:57 WARN org.apache.spark.scheduler.TaskSetManager: Stage 94 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:57 WARN org.apache.spark.scheduler.TaskSetManager: Stage 95 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:58 WARN org.apache.spark.scheduler.TaskSetManager: Stage 96 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:58 WARN org.apache.spark.scheduler.TaskSetManager: Stage 97 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:39:59 WARN org.apache.spark.scheduler.TaskSetManager: Stage 98 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:00 WARN org.apache.spark.scheduler.TaskSetManager: Stage 99 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:01 WARN org.apache.spark.scheduler.TaskSetManager: Stage 100 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:01 WARN org.apache.spark.scheduler.TaskSetManager: Stage 101 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:02 WARN org.apache.spark.scheduler.TaskSetManager: Stage 102 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:03 WARN org.apache.spark.scheduler.TaskSetManager: Stage 103 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:04 WARN org.apache.spark.scheduler.TaskSetManager: Stage 104 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:04 WARN org.apache.spark.scheduler.TaskSetManager: Stage 105 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:05 WARN org.apache.spark.scheduler.TaskSetManager: Stage 106 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:05 WARN org.apache.spark.scheduler.TaskSetManager: Stage 107 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:06 WARN org.apache.spark.scheduler.TaskSetManager: Stage 108 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:06 WARN org.apache.spark.scheduler.TaskSetManager: Stage 109 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:07 WARN org.apache.spark.scheduler.TaskSetManager: Stage 110 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:08 WARN org.apache.spark.scheduler.TaskSetManager: Stage 111 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:08 WARN org.apache.spark.scheduler.TaskSetManager: Stage 112 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:09 WARN org.apache.spark.scheduler.TaskSetManager: Stage 113 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:09 WARN org.apache.spark.scheduler.TaskSetManager: Stage 114 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:10 WARN org.apache.spark.scheduler.TaskSetManager: Stage 115 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:11 WARN org.apache.spark.scheduler.TaskSetManager: Stage 116 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:11 WARN org.apache.spark.scheduler.TaskSetManager: Stage 117 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:12 WARN org.apache.spark.scheduler.TaskSetManager: Stage 118 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:12 WARN org.apache.spark.scheduler.TaskSetManager: Stage 119 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:13 WARN org.apache.spark.scheduler.TaskSetManager: Stage 120 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:14 WARN org.apache.spark.scheduler.TaskSetManager: Stage 121 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:14 WARN org.apache.spark.scheduler.TaskSetManager: Stage 122 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:15 WARN org.apache.spark.scheduler.TaskSetManager: Stage 123 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:16 WARN org.apache.spark.scheduler.TaskSetManager: Stage 124 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:16 WARN org.apache.spark.scheduler.TaskSetManager: Stage 125 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:17 WARN org.apache.spark.scheduler.TaskSetManager: Stage 126 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:17 WARN org.apache.spark.scheduler.TaskSetManager: Stage 127 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:18 WARN org.apache.spark.scheduler.TaskSetManager: Stage 128 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:19 WARN org.apache.spark.scheduler.TaskSetManager: Stage 129 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:19 WARN org.apache.spark.scheduler.TaskSetManager: Stage 130 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:20 WARN org.apache.spark.mllib.linalg.distributed.RowMatrix: The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+19/06/04 09:40:21 WARN org.apache.spark.scheduler.TaskSetManager: Stage 131 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+19/06/04 09:40:21 WARN org.apache.spark.scheduler.TaskSetManager: Stage 132 contains a task of very large size (17607 KB). The maximum recommended task size is 100 KB.
+OpenJDK 64-Bit Server VM warning: INFO: os::commit_memory(0x00000000a1a80000, 271581184, 0) failed; error='Cannot allocate memory' (errno=12)
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 271581184 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /tmp/spark-2200-0-workers-1/hs_err_pid12564.log
+Job output is complete
