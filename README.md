@@ -26,6 +26,17 @@ After all the installations, we can run the SVD and PCA computations by the pyth
 
 This section introduces how to test the SVD and PCA computations by the script `Spark-test-svd-and-pca.py` on GCP. We follow the detailed steps which can be found in [the following site](https://towardsdatascience.com/step-by-step-tutorial-pyspark-sentiment-analysis-on-google-dataproc-fef9bef46468).
 
+To be able to run the python scripts on top of spark in the google cloud platform, we need to 
+
+1. Enable Cloud Dataproc API which can be found in the API library in your console. 
+
+2. Create the Bucket which can be found in Web Console. Here, you upload necessary python scipts and data matrices. 
+
+3. Create the clusters to make the numerical evaluations using Dataproc. Here, you can easily deploy the clusters which are already installed spark and python. 
+
+4. You can submit the job into the cluster easily from your console.
+
+
 ## Numerical Results for GCP
 
 We randomly generated the dense matrix with dimension $2000\times2000$, $2100\times 2100$, and $2200\times 2200$ to evaluate the performance of distributed computations of SVD and PCA when we use two different types of clusters: one consists of one master and another consists of one master and two workers. Throughout the simulations, we set 2 virtual CPUs and 500 GB memory storage for a master and each worker.  
