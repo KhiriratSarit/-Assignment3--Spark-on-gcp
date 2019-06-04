@@ -66,6 +66,9 @@ $2000\times 2000$             |  $2100\times2100$
 :-------------------------:|:-------------------------:
 ![Speed-up-2000](Figure_speedup_2000.png) |  ![Speed-up-2100](Figure_speedup_2100.png)
 
+
+
+
 ## Github respository 
 
 All the results and python scripts can be found in the following link: 
