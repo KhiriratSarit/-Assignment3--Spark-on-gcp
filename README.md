@@ -14,14 +14,14 @@ In addition, you have to export SPARK_HOME (for your current spark directory), P
 
 ## Run the code in the personal Windows machine 
 
-After all the installations, we can run the SVD and PCA computations by the python scipt `Spark-test-svd-and-pac.py` on your personal machine with spark 2.3.3 and hadoop 2.7 by using the following command:
+After all the installations, we can run the SVD and PCA computations by the python scipt `Spark-test-svd-and-pca.py` on your personal machine with spark 2.3.3 and hadoop 2.7 by using the following command:
 
 `directory/to/spark-2.3.3-bin-hadoop2.7/bin/spark-submit Spark-test-svd-and-pca.py`
 
 
 ## Run the code on GCP
 
-This section introduces how to test the SVD and PCA computations by the script `Spark-test-svd-and-pac.py` on GCP. 
+This section introduces how to test the SVD and PCA computations by the script `Spark-test-svd-and-pca.py` on GCP. 
 
 ## Numerical Results for GCP
 
