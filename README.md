@@ -21,7 +21,7 @@ After all the installations, we can run the SVD and PCA computations by the pyth
 
 ## Run the code on GCP
 
-This section introduces how to test the SVD and PCA computations by the script `Spark-test-svd-and-pca.py` on GCP. 
+This section introduces how to test the SVD and PCA computations by the script `Spark-test-svd-and-pca.py` on GCP. We follow the detailed steps which can be found in [the following site](https://towardsdatascience.com/step-by-step-tutorial-pyspark-sentiment-analysis-on-google-dataproc-fef9bef46468).
 
 ## Numerical Results for GCP
 
