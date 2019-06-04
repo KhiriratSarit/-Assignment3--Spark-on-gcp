@@ -8,9 +8,9 @@ This section introduces the requirements so that pyspark can be run on your pers
 * Java JDK
 * Scala
 * Spark 2.3.3 with Hadoop 2.7 
-* Anaconda 3 with installed packages `numpy` and `pyspark` 
+* Anaconda 3 with the following installed package `numpy` 
 
-In addition, you have to export SPARK_HOME (for your current spark directory), PYSPARK_PYTHON (for your current python directory), and HADOOP_HOME (for your current hadoop directory). 
+In addition, you have to export SPARK_HOME (for your current spark directory), PYSPARK_PYTHON (for your current python directory), and HADOOP_HOME (for your current hadoop directory) to be able to run the python scipt on spark. 
 
 ## Run the code in the personal Windows machine 
 
@@ -25,10 +25,10 @@ This section introduces how to test the SVD and PCA computations by the script `
 
 ## Numerical Results for GCP
 
-one master - 2 VCPUs
-two workers - each of them has 2 VCPUs 
+We generated the dense matrix with dimension $2000\times 2000$, $2100\times 2100$, and $2200\times 2200$ to evaluate the performance of distributed computations of SVD and PCA when we use two different types of clusters: one consists of one master and another consists of one master and two workers. Throughout the simulations, we set 2 virtual CPUs and 500 GB memory storage for a master and each worker.  
 
-SVD and PCA 
+
+SVD and PCA:
 
 * 2000: 2 min 22 sec for one master and 1 min 45 sec for one master, two workers 
 * 2100: 8 min 32 sec for one master and 1 min 54 sec for one master, two workers 
