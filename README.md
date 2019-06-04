@@ -43,7 +43,7 @@ We randomly generated the dense matrix with dimension $2000\times2000$, $2100\ti
 
 ![SVD and PCA computation for each cluster on GCP](Figure_1.png)
 
-The table and figure illustrate that the cluster with high number of workers outperforms that with low number of workers in terms of computation time when we increase the matrix size gradually. Also, if the matrix size is not high enough, then the compuation time between these clusters can be comparable. In addition, we can see the sub-linear speedup and faster-than-linear speedup when the benchmarking matrices with size $2000\times 2000$  and $2100\times 2100$ are used. Here, the relative speedup of the algorithm on $p$ processors is defined as $S(p) = t_1/t_p$, where $t_1$ and $t_p$ are the time it takes to finish the compuations on $1$ and $p$ processing units, respectively.
+The table and figure illustrate that the cluster with high number of workers outperforms that with low number of workers in terms of computation time when we increase the matrix size gradually. Also, if the matrix size is not high enough, then the compuation time between these clusters can be comparable. In addition, we can see the sub-linear speedup and faster-than-linear speedup when the benchmarking matrices with size $2000\times 2000$  and $2100\times 2100$ are used. Here, the relative speedup of the algorithm on $p$ processors is defined as $S(p) = t_1/t_p$ , where $t_1$ and $t_p$ are the time it takes to finish the compuations on $1$ and $p$ processing units, respectively.
 
 $2000\times 2000$             |  $2100\times2100$
 :-------------------------:|:-------------------------:
