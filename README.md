@@ -25,11 +25,15 @@ This section introduces how to test the SVD and PCA computations by the script `
 
 ## Numerical Results for GCP
 
-We generated the dense matrix with dimension $2000\times 2000$, $2100\times 2100$, and $2200\times 2200$ to evaluate the performance of distributed computations of SVD and PCA when we use two different types of clusters: one consists of one master and another consists of one master and two workers. Throughout the simulations, we set 2 virtual CPUs and 500 GB memory storage for a master and each worker.  
+We generated the dense matrix with dimension $2000\times2000$, $2100\times 2100$, and $2200\times 2200$ to evaluate the performance of distributed computations of SVD and PCA when we use two different types of clusters: one consists of one master and another consists of one master and two workers. Throughout the simulations, we set 2 virtual CPUs and 500 GB memory storage for a master and each worker.  
 
 
-SVD and PCA:
 
-* 2000: 2 min 22 sec for one master and 1 min 45 sec for one master, two workers 
-* 2100: 8 min 32 sec for one master and 1 min 54 sec for one master, two workers 
-* 2200: out of memory for one master and 2 min for one master, two workers
+| Cluster type | Matrix Dimension | Running Time |
+| ------------- |:-------------:| -----:|
+| 1 M 0 W | $2000\times2000$  | 2 min 22 sec |
+| | $2100\times2100$| 8 min 32 sec |
+| |$2200\times2200$ | out of memory |
+| 1 M 2 W | $2000\times2000$  | 1 min 45 sec |
+| | $2100\times2100$| 1 min 54 sec |
+| |$2200\times2200$ | 2 min 0 sec |
