@@ -43,13 +43,8 @@ We randomly generated the dense matrix with dimension $2000\times2000$, $2100\ti
 
 ![SVD and PCA computation for each cluster on GCP](Figure_1.png)
 
-The table and figure illustrate that the cluster with high number of workers outperforms that with low number of workers in terms of computation time when we increase the matrix size gradually. Also, if the matrix size is not high enough, then the compuation time between these clusters can be comparable.
+The table and figure illustrate that the cluster with high number of workers outperforms that with low number of workers in terms of computation time when we increase the matrix size gradually. Also, if the matrix size is not high enough, then the compuation time between these clusters can be comparable. In addition, we can see the sub-linear speedup and faster-than-linear speedup when the benchmarking matrices with size $2000\times 2000$  and $2100\times 2100$ are used. 
 
 $2000\times 2000$             |  $2100\times2100$
 :-------------------------:|:-------------------------:
 ![Speed-up-2000](Figure_speedup_2000.png) |  ![Speed-up-2100](Figure_speedup_2100.png)
-
-
-**To-do.** Please comment on the behaviour you see, if it is linear in the amount of resources, sublinear, or something else, or if the CPU was the bottleneck, or the Memory, etc? 
-
-## 
