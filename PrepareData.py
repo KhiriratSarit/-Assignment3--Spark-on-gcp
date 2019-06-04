@@ -7,4 +7,4 @@ A = np.random.randn(rows,cols)
 output_matrix = np.dot(np.transpose(A),A) 
 
 
-np.savetxt('testmatrix.txt', output_matrix, fmt='%d')
+np.savetxt('testmatrix2500.txt', output_matrix, fmt='%d')
